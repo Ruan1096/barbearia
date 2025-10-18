@@ -19,13 +19,13 @@ nav li {
 }
 nav a {
     text-transform: uppercase;
-    color: #000000;
+    color:#000000;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
 }
 nav a:hover {
-    color: #c78c19;
+    color:#c78c19;
     text-decoration: underline;
 }   
 
@@ -40,20 +40,24 @@ nav a:hover {
    text-align: center;
    width: 30%;
    vertical-align: top;
-   background: #ffffff;
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
-    border: solid 2px #000000;
+    border: 2px solid  #000000;
     border-radius: 10px;
 }
-produtos li :hover{
-    border:solid 2px #c78c19;
+.produtos li:hover{
+    border: 2px solid hwb(40 10% 22%);
 }   
 
-produtos li :active{
+.produtos li:active{
+    border:2px solid #088c19;   
     border:solid 2px #088c19;
 }
+.produtos li:hover h2{
+    font-size: 40px;
+}
+
 
 .produtos h2{
     font-size: 30px;
@@ -66,4 +70,50 @@ produtos li :active{
     font-size: 22px;
     font-weight: bold;
     margin-top: 10px;
+}
+
+/* Novo css*/
+
+.banner{
+    width: 100%;
+}
+.titulo-principal{
+    text-align: center;    
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+.principal em{
+    font-style: italic;
+}
+.utencilios{
+    width: 120px;
+    float: left;
+    margin: 20px;
+}
+
+.imagembeneficios{
+    width: 60%;
+}
+
+footer {
+    background: #bbbbbb;
+    padding: 40px 0;
+    margin-top: 50px;
+    text-align: center;
+    background: url(bg.jpg);
+    
+}
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin-top: 20px;
 }
